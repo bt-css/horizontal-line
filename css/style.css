@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+
+h5 {
+    display: inline-block;
+    /**/
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h5::after {
+    content: '';
+    display: block;
+    height: 8px;
+    width: 60%;
+    background: red;
+    margin-top: 6px;
+}
